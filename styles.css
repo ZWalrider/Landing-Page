@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   padding: 0;
   margin: 0;
+  font-family: serif; /* Try different fonts*/
 }
 
 .header {
@@ -17,16 +18,17 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin: 0;
-  padding: 0px 20px;
+  padding: 0px 50px;
   min-height: 50px;
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 24px;
   padding: 0;
   margin: 0;
   margin-right: auto;
   font-weight: bold;
+  color: #f9faf8;
 }
 
 .header ul {
@@ -37,6 +39,32 @@ body {
   padding: 0;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  padding: 0px 50px;
+  line-height: 35px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  max-width: 500px;
+}
+
 footer {
   min-height: 50px;
   display: flex;
@@ -44,12 +72,27 @@ footer {
   align-items: center;
 }
 
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
 a {
   text-decoration: none;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
 .dark {
   background-color: #1f2937;
   color: #e5e7eb;
+}
+
+img {
+  box-sizing: initial;
+  min-width: 400px;
+  padding: 50px;
 }
