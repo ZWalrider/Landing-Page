@@ -50,11 +50,24 @@ body {
   line-height: 35px;
 }
 
+.tiles {
+  display: flex;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
 h1 {
   margin: 0;
   font-size: 48px;
   color: #f9faf8;
   margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
 }
 
 p {
@@ -91,8 +104,14 @@ a {
   color: #e5e7eb;
 }
 
-img {
+.laptop-img {
   box-sizing: initial;
   min-width: 400px;
   padding: 50px;
+}
+
+.matrix {
+  box-sizing: initial;
+  width: 150px;
+  padding: 10px;
 }
