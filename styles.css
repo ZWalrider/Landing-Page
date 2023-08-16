@@ -69,16 +69,35 @@ h1 {
   margin-bottom: 5px;
 }
 
-h2 {
-  text-align: center;
-}
-
 .hero-text > p {
   margin: 0;
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 20px;
   max-width: 500px;
+}
+
+.infos-head {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  max-width: 70%;
+  font-size: 30px;
+  color: #1f2937;
+  text-align: center;
+  margin: 16px 0px;
 }
 
 footer {
