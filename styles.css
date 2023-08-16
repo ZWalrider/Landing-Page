@@ -60,6 +60,7 @@ body {
 
 figure {
   text-align: center;
+  width: 150px;
 }
 
 h1 {
@@ -177,5 +178,4 @@ a {
 .matrix {
   box-sizing: initial;
   width: 150px;
-  padding: 10px;
 }
